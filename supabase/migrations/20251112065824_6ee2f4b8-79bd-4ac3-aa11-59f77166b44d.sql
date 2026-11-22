@@ -110,7 +110,7 @@ CREATE POLICY "Authenticated can manage site config"
 
 -- Insert initial site config
 INSERT INTO public.site_config (key, value) VALUES
-  ('resume_url', '/Christin_Thomas_Resume.pdf'),
+  ('resume_url', 'https://drive.google.com/file/d/16NEAS5dHADEGLNV_liusbxEOyduxrxAr/view?usp=sharing'),
   ('github_url', 'https://github.com/Crizt1n'),
   ('linkedin_url', 'https://www.linkedin.com/in/christin-thomas-48919421b/'),
   ('email', 'christin38thomas@gmail.com'),

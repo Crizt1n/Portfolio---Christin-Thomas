@@ -62,10 +62,10 @@ export const ConfigManager = () => {
           <Input
             value={config.resume_url || ""}
             onChange={(e) => setConfig({ ...config, resume_url: e.target.value })}
-            placeholder="/path/to/resume.pdf"
+            placeholder="https://drive.google.com/file/d/..."
           />
           <p className="text-xs text-muted-foreground mt-1">
-            Path to your resume file (should be in /public folder)
+            Google Drive share link or hosted PDF URL
           </p>
         </div>
 
